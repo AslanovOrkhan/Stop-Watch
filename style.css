@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(/mac-dark-b0rcwe2cc8td3cns.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+}
+.stopWatch {
+  padding: 20px 24px;
+  border-radius: 10px;
+  backdrop-filter: blur(55px);
+}
+.timerdisplay {
+  font-size: 65px;
+  font-weight: 600;
+}
+.buttons {
+  margin-top: 20px;
+}
+.btn{
+    font-size: 30px;
+    backdrop-filter: blur(55px);
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 0 15px;
+}
